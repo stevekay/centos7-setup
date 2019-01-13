@@ -35,6 +35,7 @@ Notes on setting up a CentOS 7 VM for testing.
     git config --global color.pager true
     git config --global user.name "Steve Kay"
     git config --global user.email stevekay@gmail.com
+    git config --global push.default matching
     ssh-keygen -t rsa -b 4096 -C "my github key"
     # (paste contents of ~/.ssh/id_rsa.pub into https://github.com/settings/ssh/new)
 
