@@ -39,3 +39,9 @@ Notes on setting up a CentOS 7 VM for testing.
     ssh-keygen -t rsa -b 4096 -C "my github key"
     # (paste contents of ~/.ssh/id_rsa.pub into https://github.com/settings/ssh/new)
 
+## vim 
+    sudo yum install -y vim-enhanced
+    echo "alias vi=vim" >>~/.bashrc
+    . ~/.bashrc
+    
+    
