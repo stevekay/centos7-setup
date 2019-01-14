@@ -15,6 +15,7 @@ Notes on setting up a CentOS 7 VM for testing.
     echo 'GATEWAY=192.168.0.1' >>/etc/sysconfig/network-scripts/ifcfg-en*
     echo 'NM_CONTROLLED=no' >>/etc/sysconfig/network-scripts/ifcfg-en*
     echo 'nameserver 8.8.8.8' >/etc/resolv.conf
+    hostnamectl set-hostname centos
     systemctl restart network
 
 ## Timezone
